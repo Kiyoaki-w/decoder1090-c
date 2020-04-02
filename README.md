@@ -5,7 +5,7 @@ A Node.js C addon module for decoding Mode S (ADS-B) messages.
 ## Install
 
 ```bash
-$ npm i decoder1090
+$ npm i decoder1090-c
 ```
 
 Dependencies:
@@ -22,7 +22,7 @@ $ npm install -g --production windows-build-tools
 
 ## Usage
 ```js
-const decoder = require('decoder1090')
+const decoder = require('decoder1090-c')
 
 const fs = require('fs')
 const readline = require('readline')
