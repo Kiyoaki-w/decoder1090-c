@@ -1,0 +1,15 @@
+{
+  "name": "decoder1090-c",
+  "version": "1.0.0",
+  "description": "A C addon module for decoding Mode S messages.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "test": "node test/test.js"
+  },
+  "author": "wyp",
+  "license": "BSD-3-Clause"
+}
